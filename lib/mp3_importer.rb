@@ -7,7 +7,11 @@ def initialize(path)
   @path = path
 end
 
-def files
+def files(pathname)
+  Dir.foreach(pathname) do
+|f| f
+end
 end 
+
 
 end
