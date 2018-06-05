@@ -15,8 +15,8 @@ new_song
 end
 
 def artist_name(artist_name)
+    binding.pry
   self.artist = Artist.find_or_create_by_name
-  binding.pry
   artist.add_song(self)
 end
 
