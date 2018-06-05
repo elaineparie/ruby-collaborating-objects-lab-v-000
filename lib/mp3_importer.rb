@@ -8,7 +8,7 @@ def initialize(path)
 end
 
 def files
-  Dir.foreach(".mp3") do |file|
+  Dir.foreach("./db/mp3s") do |file|
     puts file
   end
 end
