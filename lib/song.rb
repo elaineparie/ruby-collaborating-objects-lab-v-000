@@ -10,7 +10,7 @@ def self.new_by_filename(filename)
 new_song = Song.new(name)
 formatted_song = filename.split('-')
 new_song.artist_name = formatted_song[1]
-#new_song.artist = formatted_song[2]
+new_song.artist = formatted_song[2]
 end
 
 def artist_name(artist_name)
