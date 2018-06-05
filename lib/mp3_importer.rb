@@ -13,6 +13,7 @@ def files
     files = []
     files << file
   end
+  files
 end
 
 
