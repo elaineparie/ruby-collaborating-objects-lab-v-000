@@ -21,8 +21,8 @@ class Artist
 
  def song=(song)
     self.song = song
-    #@songs << song
-  #end
+    @songs << song
+  end
 
   def save
   @@all
