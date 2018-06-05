@@ -22,6 +22,7 @@ class Artist
  def song=(song)
     self.song = song
     @songs << song
+    binding.pry
   end
 
   def save
