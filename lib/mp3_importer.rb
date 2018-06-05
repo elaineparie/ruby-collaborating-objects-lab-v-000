@@ -11,7 +11,7 @@ def files(pathname)
   Dir.foreach(pathname) do
 |f| f
 end
-end 
+end
 
 
 end
