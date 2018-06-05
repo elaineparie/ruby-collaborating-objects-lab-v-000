@@ -8,8 +8,7 @@ def initialize(path)
 end
 
 def files
-  Dir.foreach do
-|f| f
+  Dir.glob(".mp3")
 end
 end
 
