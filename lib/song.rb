@@ -7,11 +7,11 @@ class Song
   end
 
 def self.new_by_filename(filename)
-formatted_song = Song.new(name)
-#formatted_song = filename.split('-')
-formatted_song.artist_name = formatted_song[1]
-formatted_song.artist = formatted_song[2]
-formatted_song
+new_song = Song.new(name)
+formatted_song = filename.split('-')
+new_song.artist_name = formatted_song[1]
+new_song.artist = formatted_song[2]
+new song
 end
 
 def artist_name(artist_name)
