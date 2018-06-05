@@ -19,10 +19,10 @@ class Artist
 
   end
 
-  def song=(song)
-    song = Song.new
-    @songs << song
-  end
+#  def song=(song)
+    #song = Song.new
+    #@songs << song
+  #end
 
   def save
   @@all
