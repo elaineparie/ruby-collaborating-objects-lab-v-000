@@ -8,8 +8,10 @@ def initialize(path)
 end
 
 def files
+
   Dir.foreach("./db/mp3s") do |file|
-    puts file
+    files = []
+    files << file
   end
 end
 
