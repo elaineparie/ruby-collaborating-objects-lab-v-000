@@ -20,9 +20,7 @@ class Artist
   end
 
  def song=(song)
-    self.song = song
-    @songs << song
-    binding.pry
+    @songs 
   end
 
   def save
@@ -30,6 +28,7 @@ class Artist
   end
 
 def add_song(song)
+  a = self.new
   @songs << song
   song.artist = self
 end
