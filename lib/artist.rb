@@ -49,6 +49,10 @@ def self.find_or_create_by_name(name)
       end
     end
 
+    def print_songs
+      @@all
+    end
+
 
 
 end
