@@ -1,4 +1,4 @@
-
+require 'pry'
 
 class Artist
 
@@ -15,6 +15,7 @@ class Artist
 
   def self.all
     @@all
+    binding.pry
   end
 
   def save
@@ -49,9 +50,6 @@ def self.find_or_create_by_name(name)
       end
     end
 
-    def print_songs
-      @@all
-    end
 
 
 
