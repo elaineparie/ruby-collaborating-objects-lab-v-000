@@ -19,8 +19,8 @@ class Artist
 
   end
 
-#  def song=(song)
-    #song = Song.new
+ def song=(song)
+    self.song = song
     #@songs << song
   #end
 
